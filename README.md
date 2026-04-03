@@ -184,11 +184,11 @@ If you use this codebase, dataset, or dashboard in academic work, please cite:
 @article{apllogistics2024profitability,
   title     = {From Revenue to Profitability: A Data-Driven Framework for Customer,
                Product, and Margin Performance Analysis in Global Logistics Operations},
-  journal   = {International Journal of Supply Chain Analytics},
-  volume    = {12},
-  number    = {3},
-  year      = {2024},
-  publisher = {KWE Group — APL Logistics Analytics Division},
+  journal   = {...},
+  volume    = {..},
+  number    = {..},
+  year      = {2026},
+  publisher = {..},
   url       = {https://github.com/ganapathi-ai/APL_Logistics_Profitability_Intelligence-}
 }
 ```
@@ -205,8 +205,7 @@ The dataset (`APL_Logistics_Transformed.csv`) is derived from supply chain trans
 
 ## Contact
 
-APL Logistics Analytics Division | KWE Group  
-Research correspondence: analytics@apllogistics-research.net  
+Ganapathi Kakarla| Independent Researcher | April 2026
 Repository: [github.com/ganapathi-ai/APL_Logistics_Profitability_Intelligence-](https://github.com/ganapathi-ai/APL_Logistics_Profitability_Intelligence-)
 
 ---
