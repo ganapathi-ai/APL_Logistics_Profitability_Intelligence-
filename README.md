@@ -26,8 +26,8 @@ This repository accompanies the research paper listed in the [Citation](#citatio
 | Field | Detail |
 |---|---|
 | Title | From Revenue to Profitability: A Data-Driven Framework for Customer, Product, and Margin Performance Analysis in Global Logistics Operations |
-| Journal | International Journal of Supply Chain Analytics |
-| Volume / Issue | Vol. 12(3), 2024 |
+| Journal | ..... |
+| Volume / Issue | .... |
 | Dataset Size | 180,519 transaction records |
 | Engineered Features | 43 |
 | Markets Covered | Pacific Asia, USCA, Europe, LATAM, Africa |
