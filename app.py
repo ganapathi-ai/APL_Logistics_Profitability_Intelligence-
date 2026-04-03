@@ -3,6 +3,7 @@ app.py  –  APL Logistics Profitability Intelligence Dashboard
 Streamlit Cloud compatible | Author: APL Logistics Analytics Team
 """
 
+import os
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -33,9 +34,16 @@ footer {visibility: hidden;}
 """, unsafe_allow_html=True)
 
 # ─── DATA LOADING ────────────────────────────────────────────
-@st.cache_data(show_spinner="Loading transformed data …")
+_LFS_URL = (
+    "https://media.githubusercontent.com/media/ganapathi-ai/"
+    "APL_Logistics_Profitability_Intelligence-/main/APL_Logistics_Transformed.csv"
+)
+_LOCAL = "APL_Logistics_Transformed.csv"
+
+@st.cache_data(show_spinner="Loading dataset …")
 def load_data():
-    df = pd.read_csv("APL_Logistics_Transformed.csv", low_memory=False)
+    src = _LOCAL if os.path.isfile(_LOCAL) else _LFS_URL
+    df = pd.read_csv(src, low_memory=False)
     df["discount_band"] = df["discount_band"].astype(str)
     return df
 
